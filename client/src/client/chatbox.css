@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08/10/2018, 7:50:16 PM
+    Author     : SANIL
+*/
+.chatbox{
+
+    -fx-background-color:white;
+    -fx-min-height:475px;
+    -fx-min-width:600px; 
+    -fx-fit-to-width: true;
+}
+
+.label{
+    /*    -fx-pref-height:20px;*/
+    /*-fx-min-width:50px;*/ 
+    /*-fx-max-width:700px;*/ 
+    -fx-text-fill:white;
+    -fx-max-width: 500px;
+    -fx-wrap-text:true;
+    -fx-padding: 10px;
+    /*-fx-text-alignment: justify;*/
+}
+
+.label_msg_send{
+    -fx-border-radius: 20 0 0 20;
+    -fx-background-radius: 20 0 0 20; 
+    -fx-background-color: #000099;
+}
+
+.label_msg_recv{
+    -fx-border-radius: 0 20 20 0;
+    -fx-background-radius: 0 20 20 0; 
+    -fx-background-color: #000099;
+}
+
+.label_client_left{
+    -fx-border-radius: 20 20 20 20;
+    -fx-background-radius: 20 20 20 20; 
+    -fx-background-color:#990000;
+}
+
+.label_clent_in{
+    -fx-border-radius: 20 20 20 20;
+    -fx-background-radius: 20 20 20 20; 
+    -fx-background-color:#006633;
+}
